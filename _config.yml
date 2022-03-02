@@ -37,3 +37,4 @@ pagination:
   - screenshot.png
   - docs/
   - node_modules
+  - .gitignore
