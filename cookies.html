@@ -25,23 +25,23 @@
 
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Delta Method | Updates and Info about Delta Method</title>
+<title>Manage your data | Delta Method</title>
 <meta name="generator" content="Jekyll v3.9.1" />
-<meta property="og:title" content="Delta Method" />
+<meta property="og:title" content="Manage your data" />
 <meta name="author" content="deltamethod" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="This website was created as a demonstration for Jekyll custom theme named minimal-music-project. Its main feature is to make it easy to create websites for music projects" />
 <meta property="og:description" content="This website was created as a demonstration for Jekyll custom theme named minimal-music-project. Its main feature is to make it easy to create websites for music projects" />
-<link rel="canonical" href="https://www.deltamethod.band/404.html" />
-<meta property="og:url" content="https://www.deltamethod.band/404.html" />
+<link rel="canonical" href="https://www.deltamethod.band/cookies" />
+<meta property="og:url" content="https://www.deltamethod.band/cookies" />
 <meta property="og:site_name" content="Delta Method" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Delta Method" />
+<meta property="twitter:title" content="Manage your data" />
 <meta name="twitter:site" content="@deltamethodband" />
 <meta name="twitter:creator" content="@deltamethod" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"deltamethod"},"description":"This website was created as a demonstration for Jekyll custom theme named minimal-music-project. Its main feature is to make it easy to create websites for music projects","headline":"Delta Method","url":"https://www.deltamethod.band/404.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"deltamethod"},"description":"This website was created as a demonstration for Jekyll custom theme named minimal-music-project. Its main feature is to make it easy to create websites for music projects","headline":"Manage your data","url":"https://www.deltamethod.band/cookies"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -87,6 +87,8 @@
             <li>
                 <a href="/about.html" category="about" title="About The Band"
                 
+                    class="selected"
+                
                 >
                     <span>About</span>
                 </a>
@@ -120,13 +122,36 @@
 </aside>
 
       <main class="content-layout">
-          <div class="content-container">
-  <h1>404</h1>
+          <div class="content-container cookies">
+    <h1>Manage your data</h1>
+<p>This website uses cookies to provide you with the best user experience.</p>
+<p>Below are checkboxes, that you need to confirm in order to enable/disable specific data collection. Some of them might be needed for specific functionalities on site.</p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+    <hr />
+    <h2>Consents</h2>
+    
+    <fieldset>
+        <input type="checkbox" id="Google Analytics">
+        <label for="Google Analytics">
+            <strong>Google Analytics</strong>
+            some description describing the purpose of this consent as well as what it will collect and where send
+        </label>
+    </fieldset>
+    
 </div>
-
+<script>
+    const storageType = localStorage;
+    const consents = eval('[{"name":"Google Analytics","description":"some description describing the purpose of this consent as well as what it will collect and where send","cookieName":"GA"}]');
+    consents.forEach(consent => {
+        const element = document.getElementById(consent.name);
+        element.checked = storageType.getItem(consent.cookieName) === "true" || consent.alwaysAgree;
+        element.disabled = consent.alwaysAgree;
+        element.addEventListener("click", () => {
+            storageType.setItem(consent.cookieName, element.checked);
+        });
+        storageType.setItem("interacted_with_cookies_banner", true);
+    });
+</script>
           <script>
     window.addEventListener("load", () => {
         document.getElementsByClassName("copyrights")[0].innerHTML = 
