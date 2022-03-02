@@ -16,7 +16,7 @@ menu_pages:
 - title: About
   url: about.html
   category: about
-  tooltip: This is about
+  tooltip: About The Band
 
 menu_contacts:
 - faicon: fab fa-soundcloud

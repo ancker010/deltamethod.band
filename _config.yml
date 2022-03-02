@@ -14,7 +14,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate-v2
+  #- jekyll-paginate-v2
+  - jekyll-paginate
 # Build settings
 markdown: kramdown
 #remote_theme: ItsMeaga1n/minimal-music-project
