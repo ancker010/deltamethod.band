@@ -322,7 +322,7 @@ main {
 footer {
   width: 100%;
   text-align: center;
-  color: #000000;
+  color: #FFF;
   display: flex;
   justify-content: center;
   font-size: 0.7em; }
@@ -394,7 +394,7 @@ footer {
 
 .post {
   font-size: 1.2em;
-  color: black; }
+  color: white; }
   .post a {
     cursor: pointer;
     text-decoration: underline;
@@ -436,7 +436,7 @@ footer {
   .post li {
     display: list-item; }
   .post .post-content, .post .post-metadata {
-    background: #FFF;
+    background: #666666;
     padding: 0.2em 2rem 1rem 2rem;
     border-radius: 10px; }
     @media only screen and (max-device-width: 767px) {
@@ -450,7 +450,7 @@ footer {
       margin-bottom: 0.5em; }
     .post header p {
       margin: 0;
-      color: #000000; }
+      color: #FFF; }
   .post .post-metadata {
     text-align: left; }
     .post .post-metadata p {
@@ -458,16 +458,16 @@ footer {
       margin-top: 5px;
       margin-bottom: 5px; }
     .post .post-metadata a {
-      color: #000000;
+      color: #FFF;
       text-decoration: underline;
       text-decoration-color: transparent;
       transition: 0.4s;
       -webkit-text-decoration-color: transparent;
       -moz-text-decoration-color: transparent; }
       .post .post-metadata a:hover {
-        text-decoration-color: #000000;
-        -webkit-text-decoration-color: #000000;
-        -moz-text-decoration-color: #000000; }
+        text-decoration-color: #FFF;
+        -webkit-text-decoration-color: #FFF;
+        -moz-text-decoration-color: #FFF; }
   .post .post-cover_image {
     display: block;
     max-width: 100%;
@@ -509,8 +509,8 @@ footer {
       font-weight: 700;
       display: inline-block;
       padding: 10px 20px;
-      background-color: #FFF;
-      color: #000000;
+      background-color: #666666;
+      color: #FFF;
       border: 1px solid;
       border-radius: 3px;
       text-decoration: none;
@@ -562,7 +562,7 @@ footer {
       line-height: 1em;
       font-weight: 300;
       padding-bottom: 0.5em;
-      color: #000000; }
+      color: #FFF; }
     .discography .discography-album a, .post-feed .discography-album a, .discography .post-feed-album a, .post-feed .post-feed-album a {
       text-decoration: underline;
       text-decoration-color: transparent;
@@ -570,9 +570,9 @@ footer {
       -webkit-text-decoration-color: transparent;
       -moz-text-decoration-color: transparent; }
       .discography .discography-album a:hover, .post-feed .discography-album a:hover, .discography .post-feed-album a:hover, .post-feed .post-feed-album a:hover {
-        text-decoration-color: #000000;
-        -webkit-text-decoration-color: #000000;
-        -moz-text-decoration-color: #000000; }
+        text-decoration-color: #FFF;
+        -webkit-text-decoration-color: #FFF;
+        -moz-text-decoration-color: #FFF; }
     .discography .discography-album section, .post-feed .discography-album section, .discography .post-feed-album section, .post-feed .post-feed-album section {
       width: 100%; }
     .discography .discography-album_title, .post-feed .discography-album_title, .discography .post-feed-album_title, .post-feed .post-feed-album_title {
@@ -585,9 +585,9 @@ footer {
       -webkit-text-decoration-color: transparent;
       -moz-text-decoration-color: transparent; }
       .discography .discography-album_title:hover, .post-feed .discography-album_title:hover, .discography .post-feed-album_title:hover, .post-feed .post-feed-album_title:hover {
-        text-decoration-color: #000000;
-        -webkit-text-decoration-color: #000000;
-        -moz-text-decoration-color: #000000; }
+        text-decoration-color: #FFF;
+        -webkit-text-decoration-color: #FFF;
+        -moz-text-decoration-color: #FFF; }
     .discography .discography-album_summary, .post-feed .discography-album_summary, .discography .post-feed-album_summary, .post-feed .post-feed-album_summary {
       padding-bottom: 0.5em; }
 
@@ -646,7 +646,7 @@ footer {
         z-index: -1;
         width: 0;
         height: 100%;
-        background: white;
+        background: #666666;
         box-shadow: 0 0 20px #000a;
         transition: .25s; }
         .audio-player .controls .volume-container .volume-slider .volume-percentage {
