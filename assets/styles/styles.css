@@ -2,7 +2,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 700;
   text-rendering: optimizeLegibility;
-  color: #000000;
+  color: #FFF;
   text-align: center;
   font-size: 2.5em;
   letter-spacing: -1px;
@@ -12,7 +12,7 @@ h2, h3 a {
   font-weight: 500;
   font-size: 1.4em;
   line-height: 1.4em;
-  color: #000000; }
+  color: #FFF; }
 
 * {
   padding: 0;
@@ -22,7 +22,7 @@ h2, h3 a {
 
 body {
   font-size: 16px;
-  color: #FFF;
+  color: #666666;
   font-family: 'Jost',Arial,sans-serif;
   -webkit-font-smoothing: antialiased; }
 
@@ -68,16 +68,16 @@ main .pager {
     main .pager li.next {
       right: 0; }
     main .pager li > a {
-      color: #000000;
+      color: #FFF;
       text-decoration: underline;
       text-decoration-color: transparent;
       transition: 0.4s;
       -webkit-text-decoration-color: transparent;
       -moz-text-decoration-color: transparent; }
       main .pager li > a:hover {
-        text-decoration-color: #000000;
-        -webkit-text-decoration-color: #000000;
-        -moz-text-decoration-color: #000000; }
+        text-decoration-color: #FFF;
+        -webkit-text-decoration-color: #FFF;
+        -moz-text-decoration-color: #FFF; }
 
 a {
   text-decoration-line: none;
@@ -154,12 +154,12 @@ audio {
     -webkit-text-decoration-color: transparent;
     -moz-text-decoration-color: transparent; }
     .read-more a:hover {
-      text-decoration-color: #000000;
-      -webkit-text-decoration-color: #000000;
-      -moz-text-decoration-color: #000000; }
+      text-decoration-color: #FFF;
+      -webkit-text-decoration-color: #FFF;
+      -moz-text-decoration-color: #FFF; }
 
 .menu {
-  background-color: #FFF;
+  background-color: #666666;
   position: fixed;
   left: 0;
   top: 0;
@@ -209,7 +209,7 @@ audio {
       max-width: 100px;
       margin-bottom: 1em; }
       .menu-top_logo a {
-        color: #000000; }
+        color: #FFF; }
         .menu-top_logo a img {
           max-height: 100px;
           width: auto;
@@ -242,7 +242,7 @@ audio {
     margin-top: 8px; }
     .menu ul li a, .menu ul dt a, .menu ol li a, .menu ol dt a, .menu dl li a, .menu dl dt a {
       align-items: flex-start;
-      color: #000000;
+      color: #FFF;
       cursor: pointer;
       display: flex;
       font-weight: 400;
@@ -270,7 +270,7 @@ audio {
         top: 75px;
         height: calc(100% - 75px);
         width: 100%;
-        background-color: #FFF;
+        background-color: #666666;
         padding-left: 2em; } }
   .menu-contact {
     display: flex;
@@ -283,7 +283,7 @@ audio {
         display: none;
         opacity: 0; } }
     .menu-contact a {
-      color: #000000;
+      color: #FFF;
       cursor: pointer;
       text-align: left;
       text-size-adjust: 100%;
@@ -295,7 +295,7 @@ audio {
         opacity: 100%; }
 
 main {
-  background-color: #FFF;
+  background-color: #666666;
   color: black;
   float: right;
   width: calc(100% - 240px);
