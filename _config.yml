@@ -1,14 +1,14 @@
-title: minimal-music-project
-tagline: A site showing the usage of Jekyll custom theme
-email: email@example.com
+title: Delta Method
+tagline: 
+email: info@deltamethod.band
 description: >- 
   This website was created as a demonstration for Jekyll custom theme
   named minimal-music-project. Its main feature is to make it easy to create
   websites for music projects
-url: "https://itsmeaga1n.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-author: itsmeaga1n
+url: "https://www.deltamethod.band" # the base hostname & protocol for your site, e.g. http://example.com
+author: deltamethod
 twitter:
-  username: itsmeaga1n
+  username: deltamethodband
   card: summary
 plugins:
   - jekyll-seo-tag
