@@ -296,7 +296,7 @@ audio {
 
 main {
   background-color: #555555;
-  color: black;
+  color: white;
   float: right;
   width: calc(100% - 240px);
   min-height: 300px;
