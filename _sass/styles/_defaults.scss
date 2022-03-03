@@ -40,7 +40,7 @@ main {
         }
         .content-separator {
             margin: $gap auto;
-            color: $p_text;
+            color: $white;
             width: 100%;
             &:last-child {
                 margin: $gap auto 0 auto;
@@ -156,7 +156,7 @@ audio {
     line-height: 1em;
     font-weight: 300;
     padding-bottom: 0.5em;
-    color: #000000;
+    color: #FFFFFF;
     a {
         font-size: 0.9em;
         @include underline-on-hover($white);
