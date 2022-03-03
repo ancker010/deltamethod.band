@@ -59,7 +59,7 @@
         }
         p {
             margin: 0;
-            color: $white;
+            color: $p_text;
         }
     }
 
@@ -71,8 +71,8 @@
             margin-bottom: 5px;
         }
         a {
-            color: $white;
-            @include underline-on-hover($white);
+            color: $p_text;
+            @include underline-on-hover($p_text);
         }
     }
 

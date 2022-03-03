@@ -31,10 +31,10 @@
             line-height: 1em;
             font-weight: 300;
             padding-bottom: 0.5em;
-            color: $white;
+            color: $p_text;
         }
         a {
-            @include underline-on-hover($white);
+            @include underline-on-hover($p_text);
         }
         section {
             width: 100%;
@@ -44,7 +44,7 @@
             margin-top: 3vw;
             font-size: 2em;
             margin-bottom: 0.6em;
-            @include underline-on-hover($white);
+            @include underline-on-hover($p_text);
         }
 
         &_summary {

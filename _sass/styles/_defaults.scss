@@ -2,7 +2,7 @@ h1 {
     text-transform: uppercase;
     font-weight: 700;
     text-rendering: optimizeLegibility;
-    color: $white;
+    color: $p_text;
     text-align: center;
     font-size: 2.5em;
     letter-spacing: -1px;
@@ -13,7 +13,7 @@ h2, h3 a {
     font-weight: 500;
     font-size: 1.4em;
     line-height: 1.4em;
-    color: $white;
+    color: $p_text;
 }
 
 * {
@@ -40,7 +40,7 @@ main {
         }
         .content-separator {
             margin: $gap auto;
-            color: $white;
+            color: $p_text;
             width: 100%;
             &:last-child {
                 margin: $gap auto 0 auto;
@@ -69,8 +69,8 @@ main {
                 right: 0;
             }
             & > a {
-                color: $white;
-                @include underline-on-hover($white);
+                color: $p_text;
+                @include underline-on-hover($p_text);
             }
         }
     }
@@ -159,6 +159,6 @@ audio {
     color: #FFFFFF;
     a {
         font-size: 0.9em;
-        @include underline-on-hover($white);
+        @include underline-on-hover($p_text);
     }
 }
